@@ -194,6 +194,14 @@
 
 // Question 18
 
-var a = "The quick brown fox jumps over the lazy dog"
-
-for
+// var a = "The quick brown fox jumps over the lazy dog".toLowerCase();
+// var b = a.split("")
+// var c = "the"
+// var d = 0
+// for(i = 0 ; i<= b.length; i++){
+//     if(a[i]===c[0]){
+//         d++
+        
+//     }
+// }
+// document.write(d)
