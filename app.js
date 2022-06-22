@@ -108,17 +108,34 @@
 
 // Question 13
 
-var userName = prompt("Please Your Name")
+// var userName = prompt("Please Your Name")
 
-for (i = 0; i <= userName.length; i++) {
-    if (userName.charCodeAt(i) !== 33 && userName.charCodeAt(i) !== 44 && 
-        userName.charCodeAt(i) !== 46 && userName.charCodeAt(i) !== 64) {
-            document.write(userName);
-    }   
-    else{
-        alert("Invalid name")
-        break
-    }
+// for (i = 0; i <= userName.length; i++) {
+//     if (userName.charCodeAt(i) !== 33 && userName.charCodeAt(i) !== 44 && 
+//         userName.charCodeAt(i) !== 46 && userName.charCodeAt(i) !== 64) {
+//             document.write(userName);
+//     }   
+//     else{
+//         alert("Invalid name")
+//         break
+//     }
      
-}
+// }
 
+// Question 14
+
+// var a = ["cake", "apple pie", "cookie", "chips", "patties"]
+
+// var b = prompt("Please enter Desert")
+// var c = b.toLowerCase()
+// for(i=0; i <= a.length ; i++){
+
+//     if(a[i] === c) {
+//         document.write(a[i]+" is available at index "+ i +" in our bakery")
+//         break
+//     }
+//     else{
+//         alert("Not Found")
+//         break
+//     }
+// }
