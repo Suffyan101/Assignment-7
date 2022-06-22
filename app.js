@@ -139,3 +139,61 @@
 //         break
 //     }
 // }
+
+
+// Question 15
+
+// var pass = prompt("Password should be contain 6 letter, 1 small, 1 capital and special character")
+
+//     if(pass.length === 6){
+//         if(pass.charCodeAt(0) !== 48 && pass.charCodeAt(0) != 49 && pass.charCodeAt(0) != 50 && pass.charCodeAt(0) !=
+//             51 && pass.charCodeAt(0) != 52 && pass.charCodeAt(0) != 53 && pass.charCodeAt(0) !=
+//              54 && pass.charCodeAt(0) != 55 && pass.charCodeAt(0) != 56 && pass.charCodeAt(0) != 57 ){
+//                 for(var i = 0 ; i <= pass.length ; i++){
+//                     if(pass.charCodeAt(i) >= 65 &&  pass.charCodeAt(i) <= 90){
+//                         if(pass.charCodeAt(i)>=97 && pass.charCodeAt(i)>=122){
+
+//                         }
+//                         else{
+//                             alert("Password must contain one small character")
+//                             break
+//                         }
+                        
+//                     }
+//                     else{
+//                         alert("Password Should contain one uppercase Letter")
+//                         break
+//                     }
+//                 }
+//         }
+//         else{
+//             alert("First letter should not be Number")
+//         }
+//     }
+//     else{
+//         alert("Password should be six character")
+//     }
+
+// Question 16
+
+// var university = "University of Karachi";
+// var a =  university.split("")
+
+// for(var i = 0 ; i <= university.length; i++){
+//     document.write(a[i]+"<br>")
+    
+// }
+
+
+// Question 17
+
+// var user = prompt("Please enter value");
+// document.write("User Value: "+ user +"<br>")
+// var a = user[user.length -1]
+// document.write("Last Character of input: "+ a)
+
+// Question 18
+
+var a = "The quick brown fox jumps over the lazy dog"
+
+for
